@@ -44,7 +44,7 @@ The purpose of the Incident Report Analysis project was to apply the NIST Cybers
 - Ensured compliance with legal reporting requirements
 
 ## Ref 6: NIST Framework - Recover Phase
-![Screenshot 2025-09-17 at 11 56 48 AM](https://github.com/user-attachments/assets/e0ad0748-9c1a-493b-b259-bdab710c001d)
+![Screenshot 2025-09-17 at 11 56 48 AM](https://github.com/user-attachments/assets/950e8df1-f6a4-4cce-8fe5-2c777b2e0f61)
 - Outlined recovery steps: stop ICMP flood, restore network resources systematically
 - Prioritized critical system restoration before non-essential services
 - Identified need for improved data backup procedures for future incidents
