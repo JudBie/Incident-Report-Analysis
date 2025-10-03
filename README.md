@@ -49,3 +49,23 @@ The purpose of the Incident Report Analysis project was to apply the NIST Cybers
 - Prioritized critical system restoration before non-essential services
 - Identified need for improved data backup procedures for future incidents
 - Created timeline for returning to normal operations
+
+## Key Takeaways
+
+- **The NIST Cybersecurity Framework** provides a structured approach to incident response through five core functions: Identify, Protect, Detect, Respond, and Recover
+- **Unconfigured firewalls** represent critical vulnerabilities that can be exploited for DDoS attacks, emphasizing the importance of proper network security configuration
+- **DDoS attacks using ICMP packets** can overwhelm network resources and halt business operations, causing significant financial impact
+- **Layered security controls** (firewall rules, IDS/IPS, SIEM tools) work together to provide defense in depth against network attacks
+- **Source IP verification** is essential to prevent spoofing attacks and ensure incoming traffic is legitimate
+- **Network monitoring tools** like SIEM systems enable real-time detection of unusual traffic patterns and faster incident response
+- **Incident impact assessment** (rating incidents on a severity scale) helps prioritize response efforts and communicate risks to management
+- **Prioritizing critical resources** during an incident (taking non-essential systems offline to restore essential ones) minimizes business disruption
+- **Data backup strategies** are crucial for recovery, even when an incident doesn't result in data loss
+
+## Summary
+
+This project demonstrated my ability to analyze a cybersecurity incident using the NIST Cybersecurity Framework. I documented a DDoS attack that exploited an unconfigured firewall vulnerability, flooding the organization's network with ICMP packets for approximately two hours and halting normal business operations. I assessed the incident's severity as 8/10 due to its impact on client projects and company profits.
+
+Through systematic analysis using the NIST framework, I documented how the security team responded across all five functions: **Identify** - discovered the unconfigured firewall vulnerability that enabled the attack; **Protect** - implemented new firewall rules to limit ICMP packets, configured source IP verification, and deployed IDS/IPS systems; **Detect** - established network monitoring with SIEM tools to identify future anomalous traffic; **Respond** - contained affected systems, isolated non-critical resources, and restored essential services; **Recover** - blocked malicious ICMP traffic and systematically brought network resources back online.
+
+This analysis showcased my understanding of incident response procedures, network security controls, the NIST framework application, and the importance of implementing multiple defensive layers to prevent and mitigate future attacks.
